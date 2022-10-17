@@ -1,0 +1,6 @@
+{
+    "extension":["ts"],
+    "spec":["src/Task_2/petStore-tests/*.spec.ts"],
+    "require":["ts-node/register"],
+    "testTimeout": 11000
+}

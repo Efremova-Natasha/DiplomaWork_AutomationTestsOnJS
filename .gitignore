@@ -1,0 +1,10 @@
+/node_modules
+/.nyc_output
+/test-results/
+/playwright-report/
+/playwright/.cache/
+**/allure-results
+**/allure-report
+**/reporter
+**/coverage
+

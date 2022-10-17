@@ -1,0 +1,42 @@
+{
+  "name": "diploma_work",
+  "version": "1.0.0",
+  "description": "Diploma Work",
+  "main": "index.js",
+  "scripts": {
+    "unit:test": "jest --config='./src/Task_1/jest.config.ts' --coverage",
+    "api:test": "mocha --config='./src/Task_2/.mocharc.json'",
+    "ui:test": "playwright test --config=./src/task_3/config/playwright.config.ts --reporter=line,allure-playwright",
+    "ui:report": "npx allure generate ./allure-results --clean -o ./src/Task_3/allure-report && allure open ./src/Task_3/allure-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Efremova-Natasha/DiplomaWork_AutomationTestsOnJS.git"
+  },
+  "author": "Efremova Nataliya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Efremova-Natasha/DiplomaWork_AutomationTestsOnJS/issues"
+  },
+  "homepage": "https://github.com/Efremova-Natasha/DiplomaWork_AutomationTestsOnJS#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1",
+    "@types/jest": "^29.1.2",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^18.8.3",
+    "@types/superagent": "^4.1.15",
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "allure-commandline": "^2.18.1",
+    "allure-playwright": "^2.0.0-beta.19",
+    "chromedriver": "^106.0.1",
+    "eslint": "^8.25.0",
+    "jest": "^29.1.2",
+    "mocha": "^10.0.0",
+    "playwright": "^1.27.1",
+    "superagent": "^8.0.2",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
