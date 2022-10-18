@@ -6,8 +6,8 @@
   "scripts": {
     "unit:test": "jest --config='./src/Task_1/jest.config.ts' --coverage",
     "api:test": "mocha --config='./src/Task_2/.mocharc.json'",
-    "ui:test": "playwright test --config=./src/task_3/config/playwright.config.ts --reporter=line,allure-playwright",
-    "ui:report": "npx allure generate ./allure-results --clean -o ./src/Task_3/allure-report && allure open ./src/Task_3/allure-report"
+    "ui:test": "playwright test --config=./src/Task_3/config/playwright.config.ts",
+    "ui:report": "npx allure generate ./src/Task_3/allure-results --clean -o ./src/Task_3/allure-report && allure open ./src/Task_3/allure-report"
   },
   "repository": {
     "type": "git",
