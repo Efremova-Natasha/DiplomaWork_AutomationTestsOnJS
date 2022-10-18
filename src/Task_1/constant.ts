@@ -7,6 +7,6 @@ export const regExpForPhoneNumberField = /^(?<=^|\s|>|\;|\:|\))(?:\+|7|8|9|\()[\
 
 export const SUCCESSFUL_REGISTRATION = "Registration is successful";
 export const EMPTY_FIELD_ERROR = "Recheck entered values. All fields should be filling."
-export const INVALID_FIRSTNAME = "Invalid Firstname value! Please fill in all field correctly!";
-export const INVALID_LOGIN = "Invalid login value! Please fill in all field correctly!";
-export const INVALID_PASS_CONFIRMATION = "Passwords don't match! Please fill in all field correctly!";
+export const INVALID_FIRSTNAME = "Invalid Firstname value! Please fill in all fields correctly!";
+export const INVALID_LOGIN = "Invalid login value! Please fill in all fields correctly!";
+export const INVALID_PASS_CONFIRMATION = "Passwords don't match! Please fill in all fields correctly!";

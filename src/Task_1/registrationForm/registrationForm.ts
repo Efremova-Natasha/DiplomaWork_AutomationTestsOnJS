@@ -20,35 +20,35 @@ export class RegistrationForm {
         const confirmPasswordVResult = this.validatorOfConfirmPasswordNameField(password, confirmPassword);
 
         if (!firstNameVResult) {
-            throw new Error("Invalid Firstname value! Please fill in all field correctly!");
+            throw new Error("Invalid Firstname value! Please fill in all fields correctly!");
         }
 
         if (!secondNameVResult) {
-            throw new Error("Invalid Lastname value! Please fill in all field correctly!");
+            throw new Error("Invalid Lastname value! Please fill in all fields correctly!");
         }
 
         if (!birthDateVResult) {
-            throw new Error("Invalid birthdate value! Please fill in all field correctly!");
+            throw new Error("Invalid birthdate value! Please fill in all fields correctly!");
         }
 
         if (!emailVResult) {
-            throw new Error("Invalid email value! Please fill in all field correctly!");
+            throw new Error("Invalid email value! Please fill in all fields correctly!");
         }
 
         if (!phoneNumberVResult) {
-            throw new Error("Invalid phone number value! Please fill in all field correctly!");
+            throw new Error("Invalid phone number value! Please fill in all fields correctly!");
         }
 
         if (!loginVResult) {
-            throw new Error("Invalid login value! Please fill in all field correctly!");
+            throw new Error("Invalid login value! Please fill in all fields correctly!");
         }
 
         if (!passwordVResult) {
-            throw new Error("Invalid password! Please fill in all field correctly!");
+            throw new Error("Invalid password! Please fill in all fields correctly!");
         }
 
         if (!confirmPasswordVResult) {
-            throw new Error("Passwords don't match! Please fill in all field correctly!");
+            throw new Error("Passwords don't match! Please fill in all fields correctly!");
         }
 
         return "Registration is successful";
